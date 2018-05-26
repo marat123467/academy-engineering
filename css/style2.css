@@ -1,0 +1,38 @@
+* {
+	/*border: 1px solid red;*/
+}
+
+.header {
+	border: 1px solid red; 
+}
+
+.main {
+	border: 1px solid blue; 
+}
+
+.container {
+	
+}
+
+.header__top {
+	display: flex;
+	justify-content:  space-between;
+}
+
+.navigation__list {
+	display: flex;
+}
+
+.services {
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
