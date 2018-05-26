@@ -1,17 +1,13 @@
 * {
 	/*border: 1px solid red;*/
+	box-sizing: border-box;
+	
 }
 
-.header {
-	border: 1px solid red; 
-}
-
-.main {
-	border: 1px solid blue; 
-}
 
 .container {
-	
+	/*border: 1px solid red;*/
+	outline: 1px solid red;
 }
 
 .header__top {
@@ -19,9 +15,42 @@
 	justify-content:  space-between;
 }
 
+.header__log {
+	background: url();
+}
+
 .navigation__list {
 	display: flex;
 }
+
+.banner__title {
+	text-align: center;
+}
+
+.features {
+	display: flex;
+	justify-content: space-between;
+}
+
+.battons {
+	display: flex;
+	justify-content: space-around;
+}
+
+.services__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+.title {
+	text-align: center;
+}
+
+
+
+
 
 .services {
 	display: flex;
